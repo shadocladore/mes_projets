@@ -1,0 +1,2049 @@
+
+body {
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+@media screen and (min-width: 600px) {  
+
+/* Page de connexion à l'espace de travail */
+body#page_connexion{
+	margin: 0;
+	padding: 0;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin: auto;
+	background: url(images/connexion.jpg); /* #757a7e; */
+	background-position: center;
+	background-position: 50%;
+	width: auto;
+}
+#formule {
+	background-color: white;
+	width: 350px;
+	height: 350px;
+	margin: auto;
+	margin-top: 10%;
+	padding: 4px 10px 10px 10px;
+	color: #fff;
+	font-size: 1.1em;
+	border-radius: 10px;
+	box-shadow: 0px 0px 2px 1px white;
+}
+#formule div#admin {
+	background-color: white;
+	border-radius: 100px;
+	width: 150px;
+	margin: auto;
+	height: 150px;
+	margin-top: -90px;
+	text-align: center;
+}
+#formule div#admin img#phot {
+	position: relative;
+	top: 10px;
+	border-radius: 10px;
+}
+#formule h4 {
+	margin-top: -35px;
+	color: black;
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 0.9em;
+	text-align: center;
+	border-radius: 7px;
+}
+#formule div#bloc-champ {
+	margin-top: -2px;
+}
+#formule .champ {
+	border-radius: 2px;
+	padding: 4.5px;
+	border: 1px solid black;
+	outline: none;
+	width: 345px;
+	height: 40px;
+	font-size: 0.82em;
+}
+#formule label {
+	font-family: Arial;
+	font-size: 1.0em;
+	color: black;
+	font-weight: normal;
+}
+
+#formule i {
+	color: rgb(11, 11, 47);
+	font-weight: bold;
+}
+#formule p input[type=submit] {
+	width: 345px;
+	height: 43px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background: rgb(28, 28, 32);
+	font-size: 1.0em;
+	border-radius: 10px;
+	color: white;
+	border: none;
+	outline: none;
+	transform: scale(1);
+} 
+#formule p input[type=submit]:hover {
+	border-radius: 10px;
+	background: rgb(4, 60, 4);
+	transform: scale(1.02);
+	transition: all 0.5s;
+}
+#formule div#ajouter, div#pass {
+	display: inline-block;
+	width: 40%;
+	margin: 0 4.5%;
+	margin-left: 2px;
+}
+#formule div#ajouter a, div#pass a{
+	text-decoration: none;
+	color: black;
+	opacity: 0.82;
+	font-size: 0.9em;
+	text-decoration: underline;
+}
+#formule hr {
+	width: 70%;
+	border: 1px solid white;
+}
+/*------------------Fin--------------------*/
+
+/*------------------Page entete--------------------*/
+body#page-entete {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: /*#ecf0f5*/  #222d32;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+div.bloc {
+	display: inline-block;
+}
+div.slogan {
+	display: none;
+}
+p.bienvenue {
+	display: none;
+}
+div#nav
+{
+	z-index: 2;
+	width: 21%; 
+	height: 800px;
+	overflow: auto;
+ 	position: relative;
+	padding-bottom: 90px;
+	background-color: rgb(4, 4, 43);; /* #222d32; */
+ 	display: inline-block;
+	margin: 0;
+	transition: all 0.4s;
+}
+div#section
+{
+	margin: 0;
+	padding: 0;
+ 	width: 77%;
+	height: 890px;
+ 	display: inline-block; 
+ 	background-color: #ecf0f5; 
+	vertical-align: top;
+}
+div#section div#header {
+	z-index: 1;
+    width: 79%;
+	margin-left: -10px;
+    height: 45px;
+	position: fixed;
+	padding-left: 20px;
+    background-color: rgb(4,4,43); /*#222d32; #46535f*/
+}
+div#nav h3 {
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-size: 1.3em;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 15px;
+	margin-bottom: 30px;
+	opacity: 0.9;
+}
+div#nav div#profil {
+	margin-top: -15px;
+	margin-left: 14px;
+}
+div#nav div#profil i{
+	position:relative;
+	left: -53px; 
+}
+div#nav div#profil #photo {
+	border-radius: 25px;
+	margin-left: -4px;
+}
+div#nav div#profil span {
+	color: white;
+	font-size: 1.1em;
+	position:relative;
+	left: 60px; 
+	top: -30px;
+}
+div#nav div#profil em {
+	font-size: 0.7em;
+	opacity: 0.9;
+}
+div#nav div#block_menu {
+	margin-top: -9px;
+	width: 100%;
+}
+div#nav div#block_menu p {
+	margin: -10px;
+	margin-left: 17px;
+	width: 100%;
+	position: relative;
+	top: 0px;
+	padding: 9px 0px;
+	opacity: 0.88;
+}       
+div#nav div#block_menu p.employes {
+	margin-top: -17px;
+}
+div#nav div#block_menu p.employes img {
+	position: relative;
+	top: 1px;
+}
+div#nav div#block_menu p.tableau_honneurs {
+	margin-bottom: 5px;
+}
+div#nav div#block_menu p.tableau_honneurs a {
+	position: relative;
+	top: -2.0px;
+}
+div#nav div#block_menu p.bulletins a {
+	position: relative;
+	top: -2.5px;
+}
+div#nav div#block_menu p.titre {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: rgb(10, 7, 50);
+	margin-left: 0px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 19px;
+}
+div#nav div#block_menu p#lien_menu, p#deconnexion {
+	position: relative;
+	top: -8px;
+}
+div#nav div#block_menu p.titre a {
+	position: relative;
+	top: 0.5px;
+	color: white;
+	font-weight: bold;
+}
+div#nav div#block_menu p a {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin-left: 7px;
+	position: relative;
+	top: -5px;
+	text-decoration: none;
+	color: white;         
+	font-size: 0.97em;
+}                                                            
+div#nav div#block_menu p img.ico {
+	opacity: 0.9; 
+}
+div#nav div#block_menu p:hover {
+	opacity: 1;
+}
+
+div#header div.entete span.nom-etab {
+	position: relative;
+	top: -0px;
+	left: -11px;
+}
+div#header div.entete span.nom-etab img#bouton {
+	position: relative;
+	top: -10px;
+	width: 21px;
+	height: 21px;
+}
+div#header div.entete span.nom-etab em {
+	position: relative;
+	top: -14px;
+	left: -3px;
+	font-style: weight;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-size: 1.3em;
+	color: white;
+	margin-left: 17px;
+	margin-bottom: 30px;
+	opacity: 1;
+}
+div#header div.entete span.nom-etab img.logo {
+	position: relative;
+	top: -8px;
+	left: 10px;
+	border-radius: 13px;
+}
+a.aide {
+	position: relative;
+	top: -7px;
+	left: 260px;
+}
+div#bloc_aide {
+	z-index: 10;
+	font-family: Arial;
+	width: 350px;
+	background-color: #fff;
+	box-shadow: 0px 1px 1px 1px #C0C0C0;
+	transform: scale(0);
+	right: 70px;
+	margin-top: -819px;
+	position: absolute;
+	right: 263px;
+	margin-left: 181px;
+	border-radius: 6px;
+	transition: all 0.5s;
+}
+div#bloc_aide div.besoin {
+	padding: 10px 10px;
+	padding-left: 50px;
+}
+div#bloc_aide img.direction {
+	z-index: 1;
+	margin-top: -24px;
+	background-color: #fff;
+	position: absolute;
+	right: 20px;
+}
+div#bloc_aide div.besoin p {
+	margin-top: -8px;
+	font-size: 0.9em;	
+}
+div#bloc_aide a {
+	font-family: Arial;
+	text-decoration: none;
+	color: black;
+	opacity: 0.6;
+}
+div#bloc_aide a:hover {
+	color: #0dadf0;
+	opacity: 1;
+	font-weight: bold;
+}
+div#bloc_aide div.besoin h3{
+	margin-top: 28px;
+	margin-bottom: 28px;
+	font-size: 1.05em;
+}
+div#bloc_aide div.numero {
+	background-color: #f2f2f2;
+	padding: 10px 10px;
+	padding-left: 50px;
+	color: black;
+	height: 65px;
+	font-size: 0.9em;
+}
+div#bloc_aide div.numero p span {
+	opacity: 0.7;
+	font-size: 00.8em;
+}
+div#bloc_aide div.numero p i a{
+	color: #0dadf0;
+	font-weight: bold;
+	opacity: 1;
+}
+div#bloc_aide div.numero p.para {
+	margin-left: 30px;
+}
+div#bloc_aide div.numero p img.phone {
+	float: left;
+}
+div#header div.entete div.temps {
+	position: absolute;
+	right: 20px;
+	top: -2px;
+	color: white;
+	opacity: 1;
+}
+div#header div.entete div.temps img.time{
+	position: relative;
+	right: 3px;
+	top: 9px;
+}
+div#header div.entete div.temps img.date{
+	position: relative;
+	top: 4px;
+}
+div#header div.entete div.temps input {
+	width: 90px;
+	background-color: rgb(20, 8, 45);
+	color: white;
+	height: 22px;
+	text-align: center;
+	font-size: 1.1em;
+}
+div#section div#repere {
+    width: 97%;
+	height: 10px;
+	margin-top: 61px;
+	padding-left: 11px;
+}
+div#section div#repere span.nom-page {
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+	color: black;
+	position: relative;
+	top: -9px;
+	font-size: 1.3em;
+	opacity: 0.8;
+}
+div#section div#repere span.lien {
+	position: absolute;
+	right: 19px;
+	color: rgb(13, 4, 35);
+	font-size: 0.9em;
+	opacity: 0.9;
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+div#section div#repere span.lien a {
+	text-decoration: none;
+	color: rgb(18, 7, 50);
+}
+div#section div#corps {
+    width: 96%;
+	height: 779px;
+	overflow: auto;
+	margin-top: 19px;
+	margin-left: 5px;
+	padding-top: 9px;
+	padding-left: 10px;
+	background: #f2f6fa; /* rgb(241, 235, 235); #050529;*/
+	color: white;
+	border-radius: 6px;
+	box-shadow: 0px 0px 2px 4px #0a2742;/*#46535f; */
+}
+/*------------------Fin--------------------*/
+
+/*------------------Pages Centrales--------------------*/
+p.erreur {
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	width: 80%;
+	padding: 11px;
+	color: rgb(213, 60, 4);
+	border-radius: 3px;
+	text-align: center;
+	font-size: 1.05em;
+	background-color: rgb(0,255,100);
+	margin: auto;
+	margin-top: 5px;
+	font-weight: bold;
+}
+div#corps a.nouveau, div#corps {
+	font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-decoration: none;
+	padding: 8px 10px;
+	background: #134d6c; /*#170546;*/
+	color: white;
+	font-size: 1.0em;
+	margin-left: 1px;
+	border-radius: 4px;
+} 
+div#corps a.imprimer {
+	font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-decoration: none;
+	background-color: rgb(6, 34, 29);
+	padding: 3px 10px 9px 10px;
+	color: white;
+	position: relative;
+	font-size: 1.0em;
+	margin-left: 1px;
+	border-radius: 4px;
+} 
+div#corps a#impression {
+	position: absolute;
+	right: 50px;
+} 
+div#corps a.nouveau img {
+	position: relative;
+	top: 9px;
+} 
+div#corps a.imprimer img {
+	position: relative;
+	top: 5px;
+}
+div.nb_page p {
+	color: black;
+	font-size: 1.06em;
+	font-family: Arial;
+}
+/* page d'affichage de la liste des annonces */
+div#corps div#bloc_news {
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+	width: 100%;
+}
+div#corps div#bloc_news a {
+	text-decoration: none;
+}
+div#corps div#bloc_news h6 {
+	width: 35%;
+	display: inline-block;
+	margin: 1%;
+}
+div#corps div#bloc_news h5 {
+	vertical-align: top;
+	width: 77%;
+	display: inline-block;
+	margin: 1%;
+}
+div#corps div#bloc_news h5 span.date{
+	font-size: 1.0em;
+	color: red; 
+}
+div#corps div#bloc_news h5 span.titre{
+	font-size: 1.4em;
+	color: darkblue; 
+	opacity: 0.85;
+}
+div#corps div#bloc_news p.contenu {
+	font-size: 1.1em;
+	height: 125px;
+	width: auto;
+	overflow: hidden;
+	color: black; 
+	font-family: century Gothic;
+}
+div#corps div#bloc_news .cote{
+	width: 45%;
+	display: inline-block;
+	margin: 1%;
+}
+div#corps div#bloc_news h6 img {
+	width: 95%;
+	height: 200px;	
+	border: 10px solid #C0C0C0;
+}
+
+/* page du détail de l'annonce */
+div#corps div#detail_bloc_news {
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+	width: 100%;
+}
+div#corps div#detail_bloc_news div.image {
+	width: 97%;
+}
+div#corps span#date{
+	font-size: 1.0em;
+	color: red; 
+}
+div#corps span#titre_news{
+	font-size: 1.4em;
+	color: darblue; 
+	opacity: 0.85;
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+div#corps div#detail_bloc_news div.image img {
+	width: 95%;
+	height: 400px;	
+	border: 10px solid #C0C0C0;
+}
+div#corps div#detail_bloc_news div.description {
+	width: 97%;	
+	margin-left: 4px;
+}
+div#corps div#detail_bloc_news div.description p.contenu {
+	font-size: 1.0em;
+	padding: 10px;
+	margin-top: -1px;
+	height: 400px;
+	width: 93.5%;
+	border: 3px solid #C0C0C0;
+	overflow: auto;
+	color: black; 
+	opacity: 0.85;
+}
+
+/*------------------Barre de recherche--------------------*/
+form#search {
+	width: 50%;
+	height: 40px;
+	box-shadow: 1px 1px 1px 1px #C0C0C0;
+	border: 3px solid rgba(57, 54, 54, 0.89);
+	border-radius: 4px;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 30px;
+}
+form#search input[type=search] { 
+	width: 90%;
+	border: 3px solid rgba(57, 54, 54, 0.89);
+	height: 37px;
+	outline: none;
+	font-size: 1.0em;
+	border-radius: 4px;
+	position: relative;
+	top: -15px;
+	color:rgb(4, 4, 43);
+	text-align: center;
+}
+form#search input::placeholder {
+	text-align: center;
+	font-size: 0.8em;
+}
+form#search input[type=image] {
+	width: 20px;
+	height: 20px;
+	opacity: 0.75;
+	position: relative;
+	top: -9px;
+	opacity: 0.6;
+}
+form#search input[type=image]:hover {
+	opacity: 1;
+}
+/*------------------ Tableau--------------------*/
+table.liste {
+	margin-top: -6px;
+	width: 100%;
+	margin-left: -5px;
+	border: none;
+	color: white;
+	border-collapse: separate;
+ 	border-spacing: 2px;
+	background-color: #fff;
+}
+table.liste tr:first-child {
+	background: rgb(206, 227, 234); /*rgb(133, 209, 235); */
+	border-spacing: 0cm;
+}
+/*table.liste tr:nth-child(even) {
+	background: blue;
+}
+table.liste tr:nth-child(1) {
+	background: green;
+}   */
+table.liste tr td:nth-child(even) {
+	background:  rgb(223, 235, 246);
+}
+
+table.liste tr th {
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: center;
+	color: black;
+	font-weight: normal;
+	font-size: 0.95em;
+	border: none;
+	font-style: normal;
+}
+table.liste tr td {
+	text-align: center;
+	font-size: 1.0em;
+	vertical-align: middle;
+	color: black;
+	border: none;
+}
+table.liste tr td#nom {
+	font-size: 0.85em;
+}
+div.nb_page {
+	margin-top: -19px;
+	margin-bottom: 20px;
+}
+div.nb_page em {
+	border-radius: 6px;
+	color: #fff;
+	margin: 2px;
+	padding: 2px 6px 2px 2px;
+	background-color: rgb(0,25,40);
+	border: 2px solid rgb(0,25,40);
+}
+div.nb_page i.page {
+	border-radius: 6px;
+	color: #fff;
+	margin: 2px;
+	padding: 2px 3px;
+	border: 2px solid rgb(0,25,40);
+}
+div.nb_page a, i a {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+/*------------------ Autre --------------------*/
+div.page_form {
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+	z-index: 5;
+	margin: auto;
+	padding-top: 9px;
+	background-color: white;
+	width: 400px;
+	font-family: sans-serif;
+	position: absolute;
+	top: 19px;
+	left: 310px;
+	transition: all 0.5s;
+	margin-top: -15000px;
+}
+h5.edit-photo {
+	margin-top: -19px;
+	text-align: center;
+}
+h5.edit-photo img {
+	width: 150px;
+	height: 150px;
+	border: 10px solid grey;
+	border-radius: 90px;
+	margin-left: -73px;
+}
+h5.edit-photo input {
+	margin-left: 27%;
+	background-color: gray;
+	border: 1px solid rgb(47, 45, 45);
+	outline: none;
+	border-radius: 3px;
+	width: 40%;
+	height: 25px;
+	padding: 10px 0px;
+	display: block;
+}
+div.page_form h3 {
+	margin-left: 19px;
+	margin-top: -10px;
+	font-size: 1.15em;
+	font-weight: normal;
+	opacity: 0,8;
+	color: black;
+}
+div.page_form img.close {
+	width: 15px;
+	height: 17px;
+	position: relative;
+	left: 375px;
+	opacity: 0.3;
+	cursor: hand;
+}
+div.page_form img.close:hover {
+	opacity: 0.9;
+}
+div.page_form span {
+	margin-left: 370px;
+	font-size: 1.0em;
+	margin-left: 19px;
+	display: block;
+	color: black;
+}
+div.page_form input, div.page_form select, input.salaire, textarea {
+	margin: auto;
+	border: 1px solid rgba(131, 126, 126, 0.89);
+	outline: none;
+	width: 75%;
+	height: 25px;
+	padding: 10px 0px;
+	display: block;
+}
+form#form-verif h5 button  {
+	position: relative;
+	left: 17px;
+}
+form#form-verif h5 button i {
+	color: #fff;
+	position: relative;
+	left: 0px;
+}
+div.page_form select {
+	height: 50px;
+}
+input#champ_verif {
+	margin: auto;
+	border: 1px solid rgba(131, 126, 126, 0.89);
+	outline: none;
+	width: 75%;
+	height: 40px;
+	padding: 10px 0px;
+	display: block;
+}
+div.page_form button {
+	width: 100px;
+	height: 35px;
+	position: relative;
+	border: none;
+	outline: none;
+	background: #125477;
+	left: 285px;
+	top: -6px
+}
+div.page_form button i {
+	position: relative;
+	top: -4px;
+	font-style: normal;
+	color: #fff;
+	font-size: 1.2em;
+	opacity: 0,6;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div.page_form button img {
+	position: relative;
+	top: 4px;
+	width: 21px;
+	height: 21px;
+}
+/* Page Edition d'elève et enseignant */
+h4.mise_jour {
+	margin-top: -6px;
+	font-size: 1.1em;
+}
+div#page-edition {
+	padding-left: 30px;
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+	padding-top: 30px;
+}
+div#page-edition p {
+	width: 47%;
+	display: inline-block;
+	margin-top: -10px;
+}
+div#page-edition p input, div#page-edition p select{
+	height: 37px;
+	border: 1px solid rgba(131, 126, 126, 0.89);
+	width: 90%;
+	display: inline-block;
+}
+div#page-edition p span {
+	color: black;
+	font-size: 1.0em;
+	font-weight: normal;
+	font-style: normal;
+}
+div#page-edition button, button.bouton-salaire, button.bouton-imprimer {
+	width: 130px;
+	height: 35px;
+	border: none;
+	outline: none;
+	background: rgb(6, 34, 29); /*#246890;*/
+	top: -6px;
+	border-radius: 7px;
+}
+button.bouton-imprimer {
+	background: green;
+}
+div#page-edition button i, button.bouton-salaire i, button.bouton-imprimer i {
+	position: relative;
+	top: -4px;
+	font-style: normal;
+	color: #fff;
+	font-size: 1.2em;
+	opacity: 0,6;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div#page-edition button img, button.bouton-salaire img, button.bouton-imprimer img {
+	position: relative;
+	top: 1px;
+	width: 21px;
+	height: 21px;
+}
+/*--------------------------------- Page de bulletins --------------------*/
+div#bloc-bulletin {
+	font-family: 'Source Sans Pro','Helvetica Neue', Helvetica,Arial,sans-serif;  
+	width: 90%;
+	color: black
+}
+div#bloc-bulletin legend {
+	font-size: 1em;
+	color: #07354c;
+} 
+div#bloc-bulletin select {
+	outline: none;
+	width: 70%;
+	height: 45px;
+	border-right: 0px;
+}   
+div#bloc-bulletin input[type=submit] {
+	font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-decoration: none;
+	padding: 14px 10px;
+	background: #246890;
+	color: white;
+	position: relative;
+	top: 1px;
+	font-size: 1.0em;
+	border: none;
+	transition: all 0.5s; 
+} 
+div#bloc-bulletin input[type=submit]:hover {
+	background: #246890;
+} 
+div#bloc-bulletin ol {
+	margin-left: -15px;
+}  
+div#bloc-bulletin ol li#liste_eleve_classe a {
+	text-decoration: none;
+	color: black;
+	font-size: 0.9em;
+	opacity: 0.8;
+} 
+div#bloc-bulletin ol li#liste_eleve_classe a:hover {
+	text-decoration: underline;
+	opacity: 1;
+} 
+div.titre-bulletin {
+	width: 100%;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
+div.titre-bulletin input {
+	text-align: center;
+	width: 79px;
+	font-size: 0.7em;
+	position: relative;
+	top: -2px;
+}
+div.titre-bulletin span {
+	color: black;
+ 	text-align: center;
+	font-size: 1em;
+}
+fieldset {
+	color: #222d32;
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+legend {
+	color: #222d32;    
+}
+div.titre-bulletin em {
+	font-style: normal;
+	font-size: 0.91em;
+}
+table.tableau-tete {
+	margin: auto;
+	width: 100%;
+	text-align: left;
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+	padding: 0;
+	height: 7px;
+}
+table.tableau-bulletin {
+	margin-left: 33px;
+	width: 100%;
+	font-family: verdana,'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+table.tableau-bulletin th {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 1.0em;
+	height: 7px;
+	padding: 9px 0px;
+	padding-left: 5px;
+}
+table.tableau-bulletin td {
+	font-weight: bold;
+	font-family: sans-serif;
+	padding-left: 5px;
+	text-align: left;
+	font-size: 0.9em;
+	height: 7px;
+}
+table.tableau-bulletin input, table.tableau-bulletin select {
+	border: none;
+	width: 99%;
+	height: 98%;
+	outline: none;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+/* ¨Page accuel */
+table#stat { 
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	width: 99%;
+}
+table#stat tr {
+	width: 100%;
+
+}
+table#stat td {
+	font-family: 'Trebuchet Ms';
+	width: 22%;
+	height: 180px;
+	margin: 40px;
+	color: white;
+	border: 15px solid rgb(10, 7, 50); /*#222d32;*/
+	border-radius: 40px;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+	transform: scale(0.95);
+}
+table#stat td:hover {
+	transform: scale(1);
+	border: 10px solid black;
+	transition: all 0.5s;
+}
+
+table#stat td a{
+	text-decoration: none;
+	color: white;
+	position: relative;
+	top: -3px;
+}
+table#stat td#cli {
+	background: url(images/fonds/image3.jpeg); /*#00c0ef ;*/
+	background-position: center;
+	background-size: 100%;
+}
+table#stat td#con {
+	background: url(images/fonds/image1.jpg); /* #f39c12; */
+	background-position: center;
+	background-size: 100%;
+}
+table#stat td#dep {
+	background: url(images/fonds/image2.jpg); /*#00a65a; */
+}
+table#stat td#ser {
+	background: url(images/fonds/image4.jpeg); /* #dd4b39; */
+	background-position: center;
+	background-size: 100%;
+}
+table#stat td#classe {
+	background: url(images/fonds/image7.jpeg); /* #5744c4; */
+	background-position: center;
+	background-size: 100%;
+}
+table#stat td#user {
+	background: url(images/fonds/image6.jpeg); /* #f91e01; */
+	background-position: right;
+	background-size: 100%;
+}
+/* Page Salaire d'elève et enseignant */
+form#form-salaire fieldset {
+	width: 80%;
+	height: 60px;
+	color: black;
+}
+form#form-salaire span {
+	border: 1px solid rgba(19, 19, 19, 0.023);
+}
+form#form-salaire input {
+	margin-left: -5px;
+}
+fieldset#registre_notes  {
+	color: black;
+	width: 89%;
+}
+fieldset#registre_notes  div.matieres p {
+	display: inline-block;
+	margin: 5px;
+	opacity: 0.86;
+}
+fieldset#registre_notes div.matieres p a {
+	text-decoration: none;
+	color: black;
+	transition: all 0.5s;
+}
+fieldset#registre_notes div.matieres p a:hover{
+	text-decoration: underline;
+	color: rgb(29, 18, 18);
+}
+table#releve_notes td {
+	font-size: 0.9em;
+	opacity: 0.9;
+}
+table#releve_notes input{
+	border: none;
+	outline: none;
+}
+p#bouton_retour {
+	text-align: center;
+	margin-top: 20px;
+}
+p#bouton_retour a {
+	font-family: 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+	text-decoration: none;
+	padding: 8px 10px;
+	background: #246890;
+	color: white;
+	font-size: 1.0em;
+}
+table.tab_releve_notes td {
+	font-size: 0.9em;
+}
+table.tab_releve_notes td.titre {
+	font-size: 1.0em;
+}
+
+}
+
+ /* affichage du site sur la version MOBILE  */
+ 
+ 
+@media screen and (max-width: 600px) {  
+
+
+/* Page de connexion à l'espace de travail */
+body#page_connexion{
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', Tahoma, sans-serif;
+	margin: auto;
+	background-image: url(images/connexion.jpg);
+	background-position: center;
+	width: 100%;
+	border: 0px solid rgb(0,25,40);
+}
+#formule {
+	background-color: rgb(0,25,40);
+	width: 85%;
+	margin: auto;
+	margin-top: 96px;
+	padding: 4px 10px 4px 10px;
+	color: #fff;
+	font-size: 1.1em;
+	border-radius: 10px;
+	box-shadow: 0px 0px 2px 1px white;
+	margin-bottom: 50px;
+}
+#formule div#admin {
+	background-color: rgb(0,25,40);
+	border-radius: 100px;
+	width: 125px;
+	margin: auto;
+	height: 125px;
+	margin-top: -90px;
+	text-align: center;
+}
+#formule h4 {
+	width: 100%;
+	margin-top: -20px;
+	color: red;
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 0.8em;
+	text-align: center;
+	border-radius: 7px;
+}
+#formule div#bloc-champ {
+	margin-top: -13px;
+}
+#formule .champ {
+	background-color: azure;
+	border-radius: 2px;
+	padding: 4.5px;
+	border: none;
+	outline: none;
+	width: 97%;
+	height: 40px;
+	font-size: 0.82em;
+}
+#formule label {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 1.0em;
+	font-weight: bold;
+}
+span.diminutif {
+	display: none;
+}
+#formule i {
+	color: red;
+	font-weight: bold;
+}
+#formule p input[type=submit] {
+	width: 97%;
+	height: 43px;
+	background: darkblue;
+	font-size: 0.9em;
+	border-radius: 10px;
+	color: white;
+	border: none;
+	outline: none;
+	margin-top: 10px;
+	transform: scale(1);
+} 
+#formule p input[type=submit]:hover {
+	border-radius: 10px;
+	background: green;
+	box-shadow: none;
+	transform: scale(1.02);
+	transition: all 0.5s;
+}
+#formule div#ajouter, div#pass {
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	display: block;
+	width: 100%;
+}
+#formule div#ajouter a, div#pass a{
+	text-decoration: none;
+	color: #fff;
+	opacity: 0.85;
+	font-size: 0.9em;
+	text-decoration: underline;
+}
+#formule hr {
+	width: 70%;
+	border: 1px solid white;
+}
+div#page_recuperation {
+	margin-left: -15px;
+}
+div#page_recuperation p span {
+	margin-left: 6px;
+}
+div#page_recuperation h5 button i {
+	color: #fff;
+}
+div#page_recuperation p input {
+	width: 94%;
+	height: 38px;
+}
+/*------------------Fin--------------------*/
+
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #113144 !important;
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+div.slogan {
+	background-color: #222d32;
+	margin-top: -15px;
+	padding-top: 10px;
+	height: 120px;
+	margin-bottom: 0px;
+}
+p.bienvenue {
+	z-index: 5;
+	margin-top: -9px;
+	padding: 7px 0 1px 0;
+	background: #ecf0f5;
+	color: red;
+	font-size: 1.0em;
+	font-weight: bold;
+}
+div.slogan span img#etab {
+	position: relative;
+	top: -2.6px;
+}
+div.slogan strong {
+	position: relative;
+	top: -8.5px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.15em;
+	text-transform: uppercase;
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div.slogan div {
+	border-radius: 6px;
+	margin-top: -14px;
+	margin-left: 3px;
+}
+div.slogan div img.logo {
+	border-radius: 6px;
+	position: relative;
+	top: -3px;
+}
+div.slogan div em {
+	position: relative;
+	top: -8.5px;
+	color: red;
+	font-weight: bold;
+	font-size: 1.0em;
+	text-transform: uppercase;
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div.slogan form {
+	width: 100%;
+	text-align: center;
+	margin-top: 11px;
+}
+div.slogan form input {
+	width: 46%;
+	color: #fff;
+	text-align: center;
+	height: 26px;
+	position: relative;
+	top: -8.5px;
+	font-weight: bold;
+	font-size: 0.9em;
+	background-color: #222d32;
+	display: inline-block;
+}
+
+div#nav
+{
+	z-index: 1;
+	width: 100%; 
+ 	position: relative;
+ 	background-color: #222d32; 
+ 	display: inline-block;
+	margin: 0;
+	margin-top: -14px;
+	height: 2px;
+	overflow: hidden;
+	transition: all 1s;
+}
+div#section div#header {
+	display: none;
+}
+div#nav h3 {
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-size: 1.3em;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 15px;
+	margin-bottom: 30px;
+	opacity: 0.9;
+}
+div#nav div#profil {
+	margin-top: -15px;
+	margin-left: 14px;
+}
+div#nav div#profil i{
+	position:relative;
+	left: -53px; 
+}
+div#nav div#profil #photo {
+	border-radius: 25px;
+	margin-left: -4px;
+}
+div#nav div#profil span {
+	color: white;
+	font-size: 1.1em;
+	position:relative;
+	left: 60px; 
+	top: -30px;
+}
+div#nav div#profil em {
+	font-size: 0.7em;
+	opacity: 0.9;
+}
+div#nav div#block_menu {
+	margin-top: -9px;
+	width: 100%;
+}
+div#nav div#block_menu p {
+	margin: -10px;
+	margin-left: 17px;
+	width: auto;
+	position: relative;
+	top: 0px;
+	padding: 9px 0px;
+	opacity: 0.85;
+}       
+div#nav div#block_menu p.employes {
+	margin-top: -17px;
+}
+div#nav div#block_menu p.employes img {
+	position: relative;
+	top: 1px;
+}
+div#nav div#block_menu p.tableau_honneurs {
+	margin-bottom: 5px;
+}
+div#nav div#block_menu p.tableau_honneurs a {
+	position: relative;
+	top: -2.0px;
+}
+div#nav div#block_menu p.bulletins a {
+	position: relative;
+	top: -2.5px;
+}
+div#nav div#block_menu p.titre {
+	background-color: #1a2226;
+	margin-left: 0px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	opacity: 0.85;
+	display: block;
+	margin-bottom: 19px;
+}
+div#nav div#block_menu p#lien_menu, p#deconnexion {
+	position: relative;
+	top: -8px;
+}
+div#nav div#block_menu p.titre a {
+	position: relative;
+	top: 0.5px;
+}
+div#nav div#block_menu p a {
+	margin-left: 7px;
+	position: relative;
+	top: -5px;
+	text-decoration: none;
+	color: #fff;           
+	font-size: 0.97em;
+	opacity: 0.9;
+}                                                            
+div#nav div#block_menu p img.ico {
+	opacity: 0.9; 
+}
+div#nav div#block_menu p:hover {
+	opacity: 1;
+}
+div#header div.entete {
+	display: none;
+}
+a.aide {
+	display: none;
+}
+div#bloc_aide {
+	display: none;
+}
+body#page-entete {
+	width: 100%;
+	margin: auto;
+	padding: 0;
+	background-color: /*#ecf0f5*/  #222d32;
+}
+div#repere {
+	margin-bottom: 20px;
+	padding-left: 8px;
+	margin-top: -25px;
+}
+div#repere span.nom-page {
+	display: none;
+}
+div#section div#repere span.lien {
+	color: #fff;
+	font-size: 0.95em;
+	opacity: 0.9;
+}
+div#section div#repere span.lien a {
+	text-decoration: none;
+	color: #fff;
+}
+div#section div#corps {
+    width: 90%;
+	margin: auto;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px 1px #46535f;
+	margin-bottom: 35px;
+}
+
+/* ¨Page accuel */
+table#stat { 
+	font-family: 'Trebuchet MS', sans-serif;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+table#stat td {
+	width: 80%;
+	margin: auto;
+	height: 160px;
+	color: white;
+	border: 11px solid #113144;
+	border-radius: 50px;
+	font-size: 1.1em;
+	padding: 5px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: -2px;
+	display: block;
+	transform: scale(0.95);
+}
+table#stat td:hover {
+	transform: scale(1);
+	border: 8px solid black;
+	transition: all 0.5s;
+}
+table#stat td#cli {
+	background-color: #00c0ef ;
+}
+table#stat td a{
+	text-decoration: none;
+	color: white;
+	position: relative;
+	top: -3px;
+}
+table#stat td#con {
+	background-color: #f39c12;
+}
+table#stat td#dep {
+	background-color: green;
+}
+table#stat td#ser {
+	background-color: #dd4b39;
+}
+table#stat td#classe {
+	background-color: #5744c4;
+}
+table#stat td#user {
+	background-color: #f91e01;
+}
+
+/*------------------Pages Centrales--------------------*/
+p.erreur {
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	width: 80%;
+	padding: 11px;
+	color: rgb(213, 60, 4);
+	border-radius: 3px;
+	text-align: center;
+	font-size: 1.0em;
+	background-color: rgb(0,255,100);
+	margin: auto;
+	margin-top: 5px;
+	font-weight: bold;
+}
+div#corps {
+	padding-top: 16px;
+}
+div#corps a.nouveau {
+	font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-decoration: none;
+	padding: 8px 10px;
+	background: #246890;
+	color: white;
+	font-size: 1.0em;
+	margin-left: 1px;
+	position: relative;
+	top: -10px;
+	border-radius: 5px;
+} 
+div#corps a.imprimer {
+	font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-decoration: none;
+	background-color: green;
+	padding: 3px 10px 9px 10px;
+	color: white;
+	font-size: 1.0em;
+	border-radius: 5px;
+} 
+div#corps a.nouveau img {
+	position: relative;
+	top: 9px;
+} 
+div#corps a.imprimer img {
+	position: relative;
+	top: 5px;
+}
+
+/*------------------Barre de recherche--------------------*/
+form#search {
+	width: 95%;
+	height: 40px;
+	box-shadow: 1px 1px 1px 1px #C0C0C0;
+	border: 3px solid rgba(57, 54, 54, 0.89);
+	border-radius: 10px;
+	margin: auto;
+	padding: 0;
+	text-align: center;
+	margin-bottom: 13px;
+	margin-top: 20px;
+}
+form#search input {
+	width: 70%;
+	border: 3px solid rgba(57, 54, 54, 0.89);
+	height: 37px;
+	outline: none;
+	font-size: 0.86em;
+	border-radius: 4px;
+	position: relative;
+	top: -15px;
+	text-align: center;
+	border: none;
+}
+form#search input::placeholder {
+	text-align: center;
+	font-size: 0.8em;
+}
+form#search input[type=image] {
+	width: 15px;
+	height: 15px;
+	opacity: 0.75;
+	position: relative;
+	top: -12.6px;
+	left: 10px;
+	opacity: 0.6;
+	border-radius: 5px;
+}
+form#search input[type=image]:hover {
+	opacity: 1;
+}
+
+/*------------------ Tableau--------------------*/
+div.bloc_tab {
+	width: 96%;
+	text-align: center;
+	overflow: auto;
+}
+div.bloc_tab table.liste {
+	width: 100%;
+	margin-left: -5px;
+	border: 1px solid black;
+}
+div.bloc_tab table.liste tr th {
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+	text-align: center;
+	color: black;
+	font-size: 0.9em;
+	font-style: normal;
+	opacity: 0.85;
+}
+div.bloc_tab table.liste tr td {
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: center;
+	color: black;
+	opacity: 0.9;
+	font-size: 0.85em;
+	vertical-align: middle;
+}
+div.nb_page {
+	margin-top: -8px;
+	margin-bottom: 14px;
+}
+div.nb_page p {
+	display: none;
+}
+div.nb_page em {
+	border-radius: 6px;
+	color: #fff;
+	margin: 2px;
+	padding: 2px 6px 2px 2px;
+	background-color: rgb(0,25,40);
+	border: 2px solid rgb(0,25,40);
+}
+div.nb_page i.page {
+	border-radius: 6px;
+	color: #fff;
+	margin: 2px;
+	padding: 2px 3px;
+	border: 2px solid rgb(0,25,40);
+}
+div.nb_page a, i a {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+/*------------------ page formulaire d'aujout d'élément x --------------------*/
+div.page_form {
+	z-index: 5;
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+	margin: auto;
+	padding-top: 9px;
+	background-color: #fff;
+	width: 99.4%;
+	font-family: sans-serif;
+	position: absolute;
+	top: 20px;
+	transition: all 0.5s;
+	margin-top: -15000px;
+}
+h5.edit-photo {
+	width: 100%;
+	text-align: center;
+	margin-top: -12px;
+}
+h5.edit-photo img {
+	width: 150px;
+	height: 150px;
+	border: 10px solid grey;
+	border-radius: 90px;
+}
+h5.edit-photo input {
+	width: 90%;
+	background-color: gray;
+	border: 1px solid rgb(47, 45, 45);
+	outline: none;
+	border-radius: 3px;
+	height: 25px;
+	padding: 10px 0px;
+	display: block;
+}
+div.page_form h3 {
+	margin-left: 19px;
+	margin-top: 5px;
+	font-size: 1.1em;
+	opacity: 0,9;
+	font-weight: normal;
+	color: black;
+}
+div.page_form img.close {
+	width: 15px;
+	height: 17px;
+	position: relative;
+	left: 91%;
+	top: -5px;
+	opacity: 0.3;
+	cursor: hand;
+}
+div.page_form img.close:hover {
+	opacity: 0.9;
+}
+div.page_form span {
+	margin-left: 370px;
+	font-size: 0.9em;
+	margin-left: 19px;
+	display: block;
+	color: black;
+}
+div.page_form input, div.page_form select, input.salaire, textarea {
+	margin: auto;
+	border: 1px solid rgba(131, 126, 126, 0.89);
+	outline: none;
+	width: 75%;
+	height: 25px;
+	padding: 10px 0px;
+	display: block;
+}
+
+div.page_form select {
+	height: 50px;
+}
+div.page_form button {
+	width: 100px;
+	height: 35px;
+	position: relative;
+	border: none;
+	outline: none;
+	background: #3c8dbc;
+	left: 5px;
+	top: -0px
+}
+div.page_form button i {
+	position: relative;
+	top: -4px;
+	font-style: normal;
+	color: #fff;
+	font-size: 1.2em;
+	opacity: 0,6;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div.page_form button img {
+	position: relative;
+	top: 4px;
+	width: 21px;
+	height: 21px;
+}
+/* Page Edition d'elève et enseignant */
+h4.mise_jour {
+	margin-top: -6px;
+	font-size: 1.1em;
+}
+div#page-edition {
+	padding-left: 5px;
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+	padding-top: 10px;
+	margin-top: 16px;
+	padding-bottom: 5px;
+}
+div#page-edition p {
+	text-align: left;
+	width: 99%;
+	display: block;
+	margin-top: -10px;
+}
+div#page-edition p input, div#page-edition p select{
+	height: 37px;
+	border: 1px solid rgba(131, 126, 126, 0.89);
+	width: 90%;
+	display: inline-block;
+}
+div#page-edition p span {
+	text-align: left;
+	color: black;
+	font-size: 1.0em;
+	font-weight: normal;
+	font-style: normal;
+}
+div#page-edition button, button.bouton-salaire, button.bouton-imprimer {
+	width: 140px;
+	height: 35px;
+	border: none;
+	outline: none;
+	background: #246890;
+	top: -6px
+}
+button.bouton-imprimer {
+	background: green;
+	border-radius: 5px;
+}
+div#page-edition h3 {
+	text-align: left;
+}
+div#page-edition button i, button.bouton-salaire i, button.bouton-imprimer i {
+	position: relative;
+	top: -4px;
+	font-style: normal;
+	color: #fff;
+	font-size: 1.2em;
+	opacity: 0,6;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div#page-edition button img, button.bouton-salaire img, button.bouton-imprimer img {
+	position: relative;
+	top: 1px;
+	width: 21px;
+	height: 21px;
+}
+
+/*--------------------------------- Page de bulletins --------------------*/
+div#bloc-bulletin {
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+	width: 97%;
+	color: black;
+	padding-bottom: 5px;
+}
+div#bloc-bulletin legend {
+	font-size: 1em;
+	color: #07354c;
+} 
+div#bloc-bulletin input {
+	width: 99%;
+	outline: none;
+}
+div#bloc-bulletin select {
+	outline: none;
+	width: 99%;
+	height: 45px;
+	border-right: 0px;
+}   
+div#bloc-bulletin input[type=submit] {
+	font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-decoration: none;
+	padding: 14px 10px;
+	background: #246890;
+	color: white;
+	position: relative;
+	top: 1px;
+	font-size: 1.0em;
+	border: none;
+	transition: all 0.5s; 
+	border-radius: 5px;
+} 
+div#bloc-bulletin input[type=submit]:hover {
+	background: #246890;
+} 
+div#bloc-bulletin ol {
+	margin-left: -15px;
+}  
+div#bloc-bulletin ol li#liste_eleve_classe a {
+	text-decoration: none;
+	color: black;
+	font-size: 0.9em;
+	opacity: 0.8;
+} 
+div#bloc-bulletin ol li#liste_eleve_classe a:hover {
+	text-decoration: underline;
+	opacity: 1;
+} 
+div.titre-bulletin {
+	width: 100%;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
+div.titre-bulletin input {
+	text-align: center;
+	width: 79px;
+	font-size: 0.7em;
+	position: relative;
+	top: -2px;
+}
+div.titre-bulletin span {
+	color: black;
+ 	text-align: center;
+	font-size: 1em;
+}
+fieldset {
+	color: #222d32;
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+	text-align: left;
+}
+legend {
+	color: #222d32; 
+	font-size: 1.0em;
+}
+span.diminutif {
+	display: none;
+}
+div.titre-bulletin em {
+	font-style: normal;
+	font-size: 0.91em;
+}
+table.tableau-tete {
+	margin: auto;
+	width: 100%;
+	text-align: left;
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+	padding: 0;
+	height: 7px;
+}
+table.tableau-bulletin {
+	margin-left: 33px;
+	width: 100%;
+	font-family: verdana,'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+table.tableau-bulletin th {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 1.0em;
+	height: 7px;
+	padding: 9px 0px;
+	padding-left: 5px;
+}
+table.tableau-bulletin td {
+	font-weight: bold;
+	font-family: sans-serif;
+	padding-left: 5px;
+	text-align: left;
+	font-size: 0.9em;
+	height: 7px;
+}
+table.tableau-bulletin input, table.tableau-bulletin select {
+	border: none;
+	width: 99%;
+	height: 98%;
+	outline: none;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+fieldset#registre_notes div.matieres {
+	margin-top: 10px;
+	text-align: left;
+}
+fieldset#registre_notes  div.matieres p {
+	display: block;
+	opacity: 0.86;
+	margin-top: -6px;
+	text-align: left;
+	border-radius: 4px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 4px;
+	background: #C0C0C0;
+}
+fieldset#registre_notes div#legend_matieres {
+	margin-top: 33px;
+	text-align: left;
+}
+fieldset#registre_notes  div.matieres p#liste_matieres {
+	margin-top: -25px;
+}
+fieldset#registre_notes div.matieres p a {
+	text-decoration: none;
+	color: black;
+	transition: all 0.5s;
+}
+fieldset#registre_notes div.matieres p a:hover{
+	text-decoration: underline;
+	color: rgb(29, 18, 18);
+}
+table#releve_notes td {
+	font-size: 0.9em;
+	opacity: 0.9;
+}
+table#releve_notes input{
+	border: none;
+	outline: none;
+}
+p#bouton_retour {
+	text-align: center;
+	margin-top: 20px;
+	padding-bottom: 25px;
+}
+p#bouton_retour a {
+	font-family: 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+	text-decoration: none;
+	padding: 8px 10px;
+	background: #246890;
+	color: white;
+	font-size: 1.0em;
+}
+table.tab_releve_notes td {
+	font-size: 0.85em;
+}
+table.tab_releve_notes td.titre {
+	font-size: 0.9em;
+}
+
+/* page d'affichage de la liste des annonces */
+div#corps div#bloc_news {
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+	width: 100%;
+}
+div#corps div#bloc_news a {
+	text-decoration: none;
+}
+div#corps div#bloc_news h6 {
+	width: 38%;
+}
+div#corps div#bloc_news h6 img {
+	width: 100%;
+	height: 60px;
+	border-radius: 3px;
+	border: 3px solid #C0C0C0;
+}
+div#corps div#bloc_news h5 {
+	vertical-align: top;
+	width: 47%;
+	margin: 1%;
+	text-align: left;
+	height: 62px;
+	overflow: hidden;
+}
+div#corps div#bloc_news h5 span.date{
+	display: none;
+}
+div#corps div#bloc_news h5 span.titre{
+	font-size: 0.95em;
+	color: darblue; 
+	opacity: 0.85;
+	position: relative;
+	top: -13.5px;
+}
+div#corps div#bloc_news p.contenu {
+	display: none;
+}
+div#corps div#bloc_news .cote{
+	display: inline-block;
+	margin: 1%;
+}
+
+
+/* page du détail de l'annonce */
+div#corps div#detail_bloc_news {
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+	width: 98%;
+}
+div#corps div#detail_bloc_news div.image {
+	width: 97%;
+}
+div#corps span#date{
+	font-size: 1.0em;
+	color: red; 
+}
+div#corps span#titre_news{
+	font-size: 1.2em;
+	color: darblue; 
+	opacity: 0.85;
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+div#corps div#detail_bloc_news div.image img {
+	width: 95%;
+	height: 150px;	
+	border: 10px solid #C0C0C0;
+}
+div#corps div#detail_bloc_news div.description {
+	width: 87%;	
+	margin-left: 4px;
+}
+div#corps div#detail_bloc_news div.description p.contenu {
+	font-size: 1.0em;
+	padding: 10px;
+	margin-top: -1px;
+	height: 400px;
+	width: 88%;
+	border: 3px solid #C0C0C0;
+	overflow: auto;
+	color: black; 
+	opacity: 0.85;
+}
+
+
+}
+
